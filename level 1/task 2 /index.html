@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" /> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">                                      
+</head>
+<body>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="#">in</a>
+      <a href="#">𝕏</a>
+      <a href="Your_CV_Link_Here.pdf" class="download-btn" download>Download CV</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="content">
+      <div class="text">
+        <h1>Joshika S</h1>
+        <h2>Innovative Frontend Developer | Data Analyst | Problem Solver</h2>
+        <h3>"Code is my canvas — I build with logic and design with purpose."</h3>
+        <p>
+         Welcome to my digital space! I craft sleek, responsive, and user-focused websites that not only function flawlessly but also leave a lasting impression. With a keen eye for design and a passion for performance, I turn ideas into immersive digital experiences.
+        </p>
+        <a href="#contact" class="cta">Let’s get started ></a>
+      </div>
+      <div class="avatar-circle">
+        <i class="fas fa-user"></i>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I’m a creative and detail-driven frontend developer with a strong command of HTML, CSS, and JavaScript. I specialize in designing and developing visually appealing, high-performance websites that adapt beautifully across devices.
+      With a focus on UI/UX best practices, I transform concepts into clean, interactive, and accessible interfaces. Whether it's bringing static designs to life or optimizing code for speed and scalability, I love solving problems with innovative web solutions.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+      <li>Python</li>
+      <li>MySQL</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Blockchain-Integrated Glucose Monitoring Lens</h3>
+      <p>
+        A revolutionary smart contact lens that tracks blood sugar levels in real-time, transmits data via ESP32,
+        and triggers emergency alerts through a secure Hyperledger Fabric blockchain when glucose crosses critical thresholds.
+      </p>
+      <span class="tech-stack">ESP32 · Hyperledger Fabric · Firebase · IoT</span>
+    </div>
+
+    <div class="project-card">
+      <h3>Online Auction Maintenance System</h3>
+      <p>
+        A responsive, secure online auction platform designed with dynamic bidding mechanisms, user authentication,
+        and administrative control. Built for reliability and seamless user experience.
+      </p>
+      <span class="tech-stack">React · MySQL · HTML/CSS · JS</span>
+    </div>
+
+    <div class="project-card">
+      <h3>AI-Based Traffic Accident Prediction & Prevention System</h3>
+      <p>
+        An intelligent traffic solution leveraging machine learning to predict accident-prone zones,
+        with adaptive signal control, geofencing alerts, and real-time dashboard integration.
+      </p>
+      <span class="tech-stack">Python · Random Forest · Gradio</span>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="contact-section">
+    <h2>Contact</h2>
+    <form class="contact-form">
+      <div class="form-row">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+      </div>
+      <div class="form-row">
+        <input type="text" placeholder="Mobile Number" required>
+        <input type="text" placeholder="Email Subject" required>
+      </div>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Joshika S. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
